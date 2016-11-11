@@ -1,0 +1,7 @@
+rect.bar {
+    fill: #404040;
+}
+
+rect.bar:hover {
+    fill: #101010;
+}
