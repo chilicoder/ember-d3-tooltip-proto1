@@ -1,11 +1,6 @@
 import Ember from 'ember';
-import d3Call from '../utils/d3-call';
 
 export default Ember.Controller.extend({
-  init(){
-    d3Call.init();
-    this._super(arguments);
-  },
   chartData: [
     {name: 'foo', value: 12},
     {name: 'bar', value: 33},
